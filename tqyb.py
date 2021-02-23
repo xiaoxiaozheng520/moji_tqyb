@@ -39,7 +39,7 @@ def get_data():
     rq = now.strftime("%Y-%m-%d %H:%M:%S")
     # print(gjtj)
 
-    conn = pymysql.connect('218.69.96.172', 'liuzheng', 'Unidata@123!', 'air_quality', 3306)
+    conn = pymysql.connect('218.*。*。*', 'liuzheng', '***', '***', 3306)
     cur = conn.cursor()
     print('数据库连接成功!')
 
